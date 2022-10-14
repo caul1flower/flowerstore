@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77c189c5-5f1a-4404-abc3-cb0f67259326" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/flower/store/Chamomile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/flower/store/FlowerBucket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/flower/store/Rose.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/flower/store/Store.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/flower/store/Tulip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/flower/store/FlowerBucketTest.java" afterDir="false" />
+    <list default="true" id="77c189c5-5f1a-4404-abc3-cb0f67259326" name="Changes" comment="added FlowerBucket, FlowerPack etc">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/flower/store/FlowerColor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flower/store/FlowerColor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/flower/store/FlowerPack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flower/store/FlowerPack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +28,14 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="recentNewPullRequestHead">
+      <RepoCoordinatesHolder>
+        <option name="owner" value="caul1flower" />
+        <option name="repository" value="flowerstore" />
+      </RepoCoordinatesHolder>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -60,7 +62,19 @@
       <recent name="C:\Users\Anita\Documents\Java labs\lab5\flowerstore\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FlowerBucketTest">
+  <component name="RunManager" selected="JUnit.All in flowerstore">
+    <configuration name="All in flowerstore" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="flowerstore" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="BUNDLED" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FlowerBucketTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="flowerstore" />
       <extension name="coverage">
@@ -148,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665763048766</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added FlowerBucket, FlowerPack etc">
+      <created>1665769432021</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665769432021</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -164,7 +185,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="added FlowerBucket, FlowerPack etc" />
+    <option name="LAST_COMMIT_MESSAGE" value="added FlowerBucket, FlowerPack etc" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
